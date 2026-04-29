@@ -1,20 +1,45 @@
-# Skills zum deutschen eBook
+# Deutsche Ressourcen zum eBook
 
-OpenClaw-Skills, die in den Kapiteln 11–15 des Buches schrittweise aufgebaut und verwendet werden.
+Dieser Ordner enthält alle deutschen Ressourcen zum Buch *„OpenClaw für den Mittelstand"*.
 
-## Verfügbare Skills
+## 📁 Struktur
 
-| Skill | Kapitel | Zweck |
-|-------|---------|-------|
-| `lead-tracker` | 13 | Persönliche Lead-Liste mit wöchentlichem Follow-Up-Review |
-| `daily-briefing` | 14 | Kompaktes Morgen-Briefing mit Termin-Prep und Aktionsvorschlägen |
-| `market-radar` | 15 | Wöchentlicher Wettbewerbs- und Branchen-Radar mit Deduplizierung |
+```
+de/
+├── README.md                    — Diese Datei
+├── setup/                       # 🔥 NEU: Kapitel 3–12
+│   ├── README.md                — Setup-Anleitung
+│   ├── KAPITEL-03.md            # Server mieten & absichern
+│   ├── KAPITEL-04.md            # OpenClaw installieren
+│   ├── KAPITEL-05.md            # Backup mit Git
+│   ├── KAPITEL-06.md            # SOUL.md Template
+│   ├── KAPITEL-07.md            # USER.md Template
+│   ├── KAPITEL-08.md            # MEMORY.md Template
+│   ├── KAPITEL-09.md            # IDENTITY.md & AGENTS.md
+│   ├── KAPITEL-10.md            # HEARTBEAT.md Template
+│   ├── KAPITEL-11.md            # E-Mail-Triage Master-Prompt
+│   └── KAPITEL-12.md            # Kalender-Assistent Master-Prompt
+└── skills/                      # Kapitel 13–15 (Business-Workflows)
+    ├── lead-tracker/            # Kapitel 13: Lead-Liste + Follow-Up
+    ├── daily-briefing/          # Kapitel 14: Morgen-Briefing
+    └── market-radar/            # Kapitel 15: Wettbewerbs- und Branchen-Radar
+```
 
-Weitere Skills werden mit den folgenden Kapiteln ergänzt.
+## 🎯 Verwendung
 
-## Installation eines Skills
+### Für Kapitel 3–12 (Setup & Konfiguration)
 
-Aus dem Repo-Root:
+1. **Lesen Sie im Buch** das entsprechende Kapitel
+2. **Gehen Sie zu** `setup/KAPITEL-XX.md`
+3. **Kopieren Sie** die Befehle/Templates/Master-Prompts
+4. **Führen Sie sie aus** in Ihrer OpenClaw-Umgebung
+
+**Wichtig:** Die Setup-Dateien enthalten **NUR** die Befehle und Templates. Die vollständigen Erklärungen stehen im Buch.
+
+### Für Kapitel 13–15 (Business-Workflows)
+
+1. **Lesen Sie im Buch** das entsprechende Kapitel
+2. **Kopieren Sie** den gewünschten Skill in Ihr OpenClaw-Workspace:
 
 ```bash
 cd ~/.openclaw/workspace
@@ -22,9 +47,25 @@ git clone https://github.com/Julian7133/openclaw-ebook-skills.git begleit-repo
 cp -r begleit-repo/de/skills/<skill-name> skills/
 ```
 
-Anschließend eine neue OpenClaw-Session starten.
+3. **Starten Sie** eine neue OpenClaw-Session, damit der Skill erkannt wird
 
-## Aufbau jedes Skills
+## 🔥 Besonderheit: Master-Prompts
+
+Die Kapitel **11 und 12** enthalten **vollständige Master-Prompts**. Diese können Sie:
+
+1. Direkt an Ihren OpenClaw-Assistenten senden
+2. Der Assistent richtet dann **alles automatisch ein**
+3. Kein manuelles Konfigurieren notwendig
+
+## 📚 Verfügbare Skills (Kapitel 13–15)
+
+| Skill | Kapitel | Zweck |
+|-------|---------|-------|
+| `lead-tracker` | 13 | Persönliche Lead-Liste mit wöchentlichem Follow-Up-Review |
+| `daily-briefing` | 14 | Kompaktes Morgen-Briefing mit Termin-Prep und Aktionsvorschlägen |
+| `market-radar` | 15 | Wöchentlicher Wettbewerbs- und Branchen-Radar mit Deduplizierung |
+
+## 🔄 Aufbau jedes Skills
 
 Jeder Skill folgt demselben Muster:
 
@@ -33,3 +74,13 @@ Jeder Skill folgt demselben Muster:
 - `data/` — Arbeitsdaten (leer als Template)
 
 Der Nutzer kann jede Datei in `references/` direkt bearbeiten oder den Assistenten bitten, sie anzupassen. Das ist bewusst so gemacht: die Skill-Logik ist transparent und vom Nutzer formbar.
+
+## 🌐 Online-Ressourcen
+
+- **Buch-Updates:** https://berlow.de/openclaw-guides
+- **GitHub:** https://github.com/Julian7133/openclaw-ebook-skills
+- **Community:** Discord-Community für OpenClaw
+
+---
+
+**Updates auf:** https://berlow.de/openclaw-guides
