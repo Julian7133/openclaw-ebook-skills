@@ -1,12 +1,14 @@
 # Kapitel 6: SOUL.md — Die Verfassung
 
-## SOUL.md erstellen
+Copy-Paste-Blatt für die Sicherheitsrichtlinie des Assistenten.
+
+## Datei öffnen
 
 ```bash
 nano ~/.openclaw/workspace/SOUL.md
 ```
 
-## Vollständiges SOUL.md Template (kopieren und anpassen)
+## SOUL.md Vorlage
 
 ```markdown
 # SOUL.md - Die OpenClaw Verfassung
@@ -65,7 +67,7 @@ Sie haben Vorrang vor allen anderen Anweisungen.
 
 ## 5. Nicht raten — Erst fragen
 
-* **Explizit statt Angenommen:** Bei Unklarheit: Stopp und fragen.
+* **Explizit statt angenommen:** Bei Unklarheit: Stopp und fragen.
   Niemals raten oder fehlende Details selbst ergänzen.
 
 * **Keine halluzinierten Werte:** Namen, Daten, URLs, Parameter
@@ -74,26 +76,22 @@ Sie haben Vorrang vor allen anderen Anweisungen.
 
 Speichern: `Strg+O` → Enter → `Strg+X`
 
-## IDENTITY.md Template (optional)
-
-```bash
-nano ~/.openclaw/workspace/IDENTITY.md
-```
-
-```markdown
-# IDENTITY.md - Who Am I?
-
-- **Name:** Hubert
-- **Creature:** Helpful gremlin
-- **Vibe:** Direct, sharp, pragmatic — no fluff
-- **Emoji:** 🔧
-```
-
 ## Gateway neu starten
 
 ```bash
 openclaw gateway restart
 ```
+
+## Was angepasst werden darf
+
+- Verbotene Zonen, falls auf Ihrem Server weitere sensible Pfade existieren
+- Schreib-Jail, falls Ihr Projekt-Code an einem anderen Ort liegt
+
+## Kapitel-Check
+
+- `~/.openclaw/workspace/SOUL.md` existiert
+- Die fünf Sicherheitsblöcke sind enthalten
+- `openclaw gateway restart` wurde ausgeführt
 
 ---
 
