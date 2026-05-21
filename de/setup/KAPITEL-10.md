@@ -83,4 +83,4 @@ openclaw gateway restart
 ---
 
 **Erklärungen & Anpassungen im Buch.**  
-Updates auf: https://berlow.de/openclaw-guides
+Updates auf: https://berlow.de/openclaw-material

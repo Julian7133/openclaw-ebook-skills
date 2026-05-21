@@ -98,4 +98,4 @@ openclaw gateway restart
 ---
 
 **Anpassungen im Buch beschrieben.**  
-Updates auf: https://berlow.de/openclaw-guides
+Updates auf: https://berlow.de/openclaw-material

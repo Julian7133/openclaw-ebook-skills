@@ -45,4 +45,4 @@ diff ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.bak
 ---
 
 **Erklärungen im Buch.**  
-Updates auf: https://berlow.de/openclaw-guides
+Updates auf: https://berlow.de/openclaw-material

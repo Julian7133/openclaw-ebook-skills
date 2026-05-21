@@ -103,4 +103,4 @@ openclaw gateway restart
 ---
 
 **Detaillierte Konfigurationen und Anpassungen im Buch.**  
-Updates auf: https://berlow.de/openclaw-guides
+Updates auf: https://berlow.de/openclaw-material
