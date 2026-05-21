@@ -17,7 +17,3 @@ cd ~/.openclaw/workspace
 git clone https://github.com/Julian7133/openclaw-ebook-skills.git begleit-repo
 cp -r begleit-repo/de/skills/<skill-name> skills/
 ```
-
-## Lizenz
-
-MIT.
