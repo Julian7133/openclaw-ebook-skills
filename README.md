@@ -2,7 +2,7 @@
 
 Begleitrepository zum Buch *„OpenClaw für den Mittelstand"* von Julian Berlow.
 
-Enthält **Kopier-Vorlagen, Befehle und Skills** für alle Kapitel des Buches — Setup-Materialien in Kapitel 3–12 sowie OpenClaw-Skills in den Kapiteln 13–15. Die Dateien sind so aufgebaut, dass sie direkt in ein laufendes OpenClaw-Setup kopiert oder angepasst werden können.
+Enthält **Kopier-Vorlagen, Befehle und Skills** für alle Kapitel des Buches.
 
 ## 🎯 Zweck dieses Repos
 
@@ -19,7 +19,7 @@ Enthält **Kopier-Vorlagen, Befehle und Skills** für alle Kapitel des Buches �
 ├── README.md                    — Diese Datei
 ├── de/
 │   ├── README.md                — Deutsche Übersicht
-│   ├── setup/                   # Kapitel 3–12
+│   ├── setup/                   # 🔥 NEU: Kapitel 3–12
 │   │   ├── README.md            — Setup-Anleitung
 │   │   ├── KAPITEL-03.md        # Server mieten & absichern
 │   │   ├── KAPITEL-04.md        # OpenClaw installieren
@@ -33,16 +33,8 @@ Enthält **Kopier-Vorlagen, Befehle und Skills** für alle Kapitel des Buches �
 │   │   └── KAPITEL-12.md        # Kalender-Assistent Master-Prompt
 │   └── skills/                  # Kapitel 13–15 (Business-Workflows)
 │       ├── lead-tracker/        # Kapitel 13: Lead-Liste + Follow-Up
-│       │   ├── SKILL.md
-│       │   ├── references/
-│       │   └── data/
 │       ├── daily-briefing/      # Kapitel 14: Morgen-Briefing
-│       │   ├── SKILL.md
-│       │   └── references/
 │       └── market-radar/        # Kapitel 15: Wettbewerbs- und Branchen-Radar
-│           ├── SKILL.md
-│           ├── references/
-│           └── data/
 └── en/
     ├── README.md                — English overview
     └── skills/                  — English skills (in progress)
@@ -67,9 +59,7 @@ Enthält **Kopier-Vorlagen, Befehle und Skills** für alle Kapitel des Buches �
 
 ### Für Kapitel 13–15 (Business-Workflows)
 
-Das Buch beschreibt die Installation im jeweiligen Kapitel. Die Setup-Befehle und Vorlagen stehen unter [`de/setup/`](de/setup/).
-
-Die Kurzversion für Skills:
+Das Buch beschreibt die Installation im jeweiligen Kapitel. Die Kurzversion:
 
 ```bash
 cd ~/.openclaw/workspace

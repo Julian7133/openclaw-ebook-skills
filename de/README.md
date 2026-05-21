@@ -1,28 +1,13 @@
 # Deutsche Ressourcen zum eBook
 
-Dieser Ordner enthält alle deutschen Ressourcen zum Buch *„OpenClaw für den Mittelstand"* — Copy-Paste-Materialien für Setup (Kapitel 3–12) und Skills (Kapitel 13–15).
-
-## Setup-Kapitel
-
-| Kapitel | Thema |
-|---------|-------|
-| [3](setup/KAPITEL-03.md) | Server mieten und absichern |
-| [4](setup/KAPITEL-04.md) | OpenClaw installieren |
-| [5](setup/KAPITEL-05.md) | Backup der Konfiguration |
-| [6](setup/KAPITEL-06.md) | `SOUL.md` |
-| [7](setup/KAPITEL-07.md) | `USER.md` |
-| [8](setup/KAPITEL-08.md) | `MEMORY.md` |
-| [9](setup/KAPITEL-09.md) | `IDENTITY.md` & `AGENTS.md` |
-| [10](setup/KAPITEL-10.md) | `HEARTBEAT.md` & Cron |
-| [11](setup/KAPITEL-11.md) | E-Mail-Triage Master-Prompt |
-| [12](setup/KAPITEL-12.md) | Kalender-Assistent Master-Prompt |
+Dieser Ordner enthält alle deutschen Ressourcen zum Buch *„OpenClaw für den Mittelstand"*.
 
 ## 📁 Struktur
 
 ```
 de/
 ├── README.md                    — Diese Datei
-├── setup/                       # Kapitel 3–12
+├── setup/                       # 🔥 NEU: Kapitel 3–12
 │   ├── README.md                — Setup-Anleitung
 │   ├── KAPITEL-03.md            # Server mieten & absichern
 │   ├── KAPITEL-04.md            # OpenClaw installieren
