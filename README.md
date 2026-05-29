@@ -17,3 +17,7 @@ cd ~/.openclaw/workspace
 git clone https://github.com/Julian7133/openclaw-ebook-skills.git begleit-repo
 cp -r begleit-repo/de/skills/<skill-name> skills/
 ```
+
+## Komfortables Lesen der enthaltenen Markdown Dateien
+- Entweder direkt über die Github Oberfläche, wo diese Dateien aufgefunden werden können
+- Lokal empfehle ich für MacOS "One Markdown". Link: https://apps.apple.com/us/app/one-markdown/id1507139439. Für Windows empfehle ich: http://marktext.me/
